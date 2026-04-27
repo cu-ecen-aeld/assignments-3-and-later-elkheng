@@ -1,5 +1,4 @@
-# filesdir= $(dirname "$(readlink -f "$0")")
-# cd "$filesdir"
+#!/bin/sh
 filesdir=$1
 searchstr=$2
 
